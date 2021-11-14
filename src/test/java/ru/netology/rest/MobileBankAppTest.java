@@ -17,7 +17,7 @@ public class MobileBankAppTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("PUT-method test"))
+                .body("data", equalTo("POST-method test"))
         ;
     }
 }
